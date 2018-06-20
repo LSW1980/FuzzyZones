@@ -93,22 +93,16 @@ Cx_H  = 100-(50**2 + 50*100 + 100**2)/(3*150) #centroid Cx of Hot Fuzzy Set, fro
 powerLevel = (Cx_C*im_outPower_C + Cx_NC*im_outPower_NC
     + Cx_H*im_outPower_H)/(im_outPower_C + im_outPower_NC + im_outPower_H)
 
-print 'Percent Power Output: '  , powerLevel
+print 'Percent Power Output: '  , powerLevel  # power value using WA and RSS methods
 
-#clip each fuzzy set with Root Sum Squared Method value
-#use for print out
-clip_outPower_C = np.fmin(im_outPower_C, outPower_C)
-clip_outPower_NC = np.fmin(im_outPower_NC, outPower_NC)
-clip_outPower_H = np.fmin(im_outPower_H, outPower_H)
+# Plot Power output and membership of Singletons
+ax4.plot([Cx_C, Cx_C], [0, im_outPower_C], 'b', lw=3, label='Cold Singleton')
 
-clip_aggregated = np.fmax(clip_outPower_C,
-                     np.fmax(clip_outPower_NC, clip_outPower_H))
+ax4.plot([Cx_NC, Cx_NC], [0, im_outPower_NC], 'orange', lw=3, label='NC Singleton')
 
-# graphical view of power output
-x_outPower0 = np.zeros_like(x_outPower) # define baseline interval for plotting
-ax4.plot(x_outPower, clip_aggregated, 'g', lw=2, label='Clipped Fuzzy Sets')
-ax4.fill_between(x_outPower,x_outPower0, clip_aggregated,
-                 facecolor='c', alpha=0.6) # fill centroid area with color
+ax4.plot([Cx_H, Cx_H], [0, im_outPower_H], 'r', lw=3, label='Hot Singleton')
+
+ax4.plot([Cx_C, Cx_H], [0, 0], 'g', lw=3) # define baseline interval for plotting 
 
 ax4.set_xlabel('outPower', fontsize=10)
 ax4.set_ylabel('Membership', fontsize=10)
@@ -118,6 +112,5 @@ ax4.set_title(
 
 # plot vertical line at output value
 ax4.plot([powerLevel, powerLevel],[0, 1], 'm--', lw=3, label='Power Level')
-
 ax4.legend()
 plt.show()
