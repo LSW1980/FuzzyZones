@@ -1,12 +1,16 @@
+-------- Nuts and Bolts Engineering Corner - Practical Engineering and Applications -------
 
-https://fuzzyzones.blogspot.com
+                          https://fuzzyzones.blogspot.com
 
-Molding Design of Experiments and Contour Plot
-![Alt Text](../master/aveEffects.png)
-![Alt Text](../master/magEffects.png)
-![Alt Text](../master/moldContourPlot.png)
+*** Nov 2018 blog:  Molding Design of Experiments and Contour Plot ***
+
+![Alt Text](../master/IMG/aveEffects.png)
+
+![Alt Text](../master/IMG/magEffects.png)
+
+![Alt Text](../master/IMG/moldContourPlot.png)
 
 
-A Look Into Fuzzy Logic And Its Applications - Fuzzy Temperature Control System and Python code.
+*** Jun 2018:  A Look Into Fuzzy Logic And Its Applications - Fuzzy Temperature Control System and Python code. ***
 
 ![Alt Text](../master/IMG/FuzzySets.png)
