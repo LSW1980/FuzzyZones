@@ -11,6 +11,6 @@
 ![Alt Text](../master/IMG/moldContourPlot.png)
 
 
-*** Jun 2018:  A Look Into Fuzzy Logic And Its Applications - Fuzzy Temperature Control System and Python code. ***
+*** Jun 2018 blog:  A Look Into Fuzzy Logic And Its Applications - Fuzzy Temperature Control System and Python code. ***
 
 ![Alt Text](../master/IMG/FuzzySets.png)
