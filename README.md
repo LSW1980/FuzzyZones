@@ -5,7 +5,7 @@ Nuts and Bolts Engineering Corner - Practical Engineering and Applications
 https://fuzzyzones.blogspot.com
 
 
-Nov 2018 blog: Molding Design of Experiments and Contour Plot
+Nov 2018 blog: Molding Design of Experiments and Contour Plot with Python codes
 
 
 ![Alt Text](../Practical-Molding/moldContourPlot.png)
@@ -13,7 +13,7 @@ Nov 2018 blog: Molding Design of Experiments and Contour Plot
 
 
 
-Jun 2018 blog: A Look Into Fuzzy Logic And Its Applications - Fuzzy Temperature Control System and Python code.
+Jun 2018 blog: A Look Into Fuzzy Logic And Its Applications - Fuzzy Temperature Control System and Python codes.
 
 
 ![Alt Text](../master/IMG/FuzzySets.png)
